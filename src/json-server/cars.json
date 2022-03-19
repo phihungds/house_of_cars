@@ -1,0 +1,153 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "brand": "Hyundai",
+      "name": "Santafe",
+      "price": "40.535",
+      "debut": "2022-03-09",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "inventory": "209",
+      "slogan": "New Thinking. New Possibilities."
+    },
+    {
+      "id": "2",
+      "brand": "Mercedes",
+      "name": "AMG Vision",
+      "price": "1.500.000",
+      "debut": "01/01/2021",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "inventory": "5",
+      "slogan": "The best or nothing"
+    },
+    {
+      "id": "3",
+      "brand": "Porsche",
+      "name": "Cayenne",
+      "price": "77,500",
+      "debut": "01/01/2021",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "inventory": 18,
+      "slogan": "There is No Substitute"
+    },
+    {
+      "id": "4",
+      "brand": "Vinfast",
+      "name": "VF7",
+      "price": "56.000",
+      "debut": "01/01/2021",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "inventory": 500,
+      "slogan": "Boundless Together"
+    },
+    {
+      "id": "5",
+      "brand": "Russia",
+      "name": "T-90",
+      "price": "6.000.000",
+      "debut": "01/01/2021",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "inventory": 2,
+      "slogan": "Gates isn't a fear anymore"
+    },
+    {
+      "id": "6",
+      "brand": "Tesla",
+      "name": "Model X",
+      "price": "89.990",
+      "debut": "01/01/2021",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "inventory": 9,
+      "slogan": "Innovation that excities"
+    },
+    {
+      "id": "7",
+      "brand": "Rolls-Royce",
+      "name": "Phantom",
+      "price": "457.750",
+      "debut": "21321-03-12",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "inventory": 9,
+      "slogan": ""
+    },
+    {
+      "id": "8",
+      "brand": "Toyota",
+      "name": "Land Cruiser",
+      "price": "46.500",
+      "debut": "01/01/2021",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "inventory": "100",
+      "slogan": ""
+    }
+  ],
+  "repairs": [
+    {
+      "id": 1,
+      "guest": "Elon Musk",
+      "car": "Tesla Model X",
+      "category": "replace batteries",
+      "date": "12/03/2022"
+    },
+    {
+      "id": 2,
+      "guest": "Ben Affleck",
+      "car": "Mercedes AMG Vision",
+      "category": "warranty",
+      "date": "19/03/2022"
+    },
+    {
+      "id": 3,
+      "guest": "Dom Toretto",
+      "car": "Dodge Charger",
+      "category": "change color",
+      "date": "27/03/2022"
+    },
+    {
+      "guest": "Bruce Wayne Nightcrawler",
+      "brand": "Roll-Royce",
+      "name": "ưeqweeqw",
+      "date": "7688-08-06",
+      "undefined": "Change Color",
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "id": 1
+    },
+    {
+      "brand": "KIA",
+      "name": "123",
+      "inventory": "12312",
+      "price": "21332132",
+      "id": 2
+    }
+  ],
+  "deposit": [
+    {
+      "car": "Vinfast VF7",
+      "name": "Hung Hoang",
+      "email": "phihunds1@gmail.com",
+      "address": "Đồ Sơn, Hải Phòng",
+      "phone": "0399562544",
+      "id": 1
+    },
+    {
+      "car": "Mercedes AMG Vision",
+      "name": "Hung Hoang",
+      "email": "phihunds1@gmail.com",
+      "address": "Đồ Sơn, Hải Phòng",
+      "phone": "0399562544",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "phihung@admin.com",
+      "password": "1234",
+      "role": "admin"
+    }
+  ]
+}

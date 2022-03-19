@@ -1,0 +1,20 @@
+@font-face {
+    font-family: dancingFont;
+    src: url(../font/DancingScript-Bold.ttf);
+}
+.slogan {
+    font-family: dancingFont;
+    font-weight: bold;
+    color: #eeeeee  ;
+}
+
+.service {
+    color: #eeeeee;
+    font-size: 25px;
+}
+.service-icon:hover {
+    background-color: #eeeeee;
+}
+.service-icon:hover .service{
+    color: #222831;
+}
