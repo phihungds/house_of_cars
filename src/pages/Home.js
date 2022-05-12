@@ -4,11 +4,12 @@ import CarRentalIcon from '@mui/icons-material/CarRental';
 import ConstructionIcon from '@mui/icons-material/Construction';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import homebg from '../photos/home-bg.jpg';
-
+import Slide from '../components/slideShow2';
 import Layout from './Layout';
 import Cars from '../components/cars';
 import { useNavigate } from 'react-router-dom';
 import Slideshow from '../components/slideShow';
+
 import '../styles/home.css'
 import DancingFont from '../font/DancingScript-Bold.ttf'
 const theme = createTheme(

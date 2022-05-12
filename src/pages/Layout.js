@@ -31,7 +31,7 @@ export default function Layout({ children }) {
 
                     </Box>
                     <Box sx={{ flexGrow: 2, display: { xs: 'inline', md: 'flex' } }}>
-                    <Link href='/home' underline='none' sx={{color: '#EEEEEE' }}><Typography variant="h4" color="#EEEEEE" >House of Cars</Typography></Link></Box>
+                    <Link href='/' underline='none' sx={{color: '#EEEEEE' }}><Typography variant="h4" color="#EEEEEE" >House of Cars</Typography></Link></Box>
                     <Box sx={{ flexGrow: 0, display: { xs: 'inline', md: 'flex' } }}>
                         <UserManage />
                     </Box>

@@ -19,9 +19,9 @@ export default function Index () {
     
           <div className="main-route-place">
             <Routes>
-              <Route exact path="/" element={<Login />} />
+              <Route exact path="/" element={<Home />} />
               <Route path="/register" element={<Register />} />
-               <Route path="/home" element={<Home />} />
+               <Route path="/login" element={<Login />} />
                <Route path="/about" element={<About />} /> 
                <Route path="/service" element={<Service />} /> 
                <Route path="/contact" element={<Contact />} />  

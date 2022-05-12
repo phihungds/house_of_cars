@@ -14,12 +14,15 @@
     "axios": "^0.26.0",
     "bootstrap": "^5.1.3",
     "formik": "^2.2.9",
+    "gh-pages": "^3.2.3",
     "json-server": "^0.17.0",
     "next": "^12.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.3",
     "sweetalert2": "^11.4.4",
     "web-vitals": "^2.1.4"
@@ -29,8 +32,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://phihungds.github.io/reactJS_caseStudy",
-    "predeploy": "npm run build","deploy": "gh-pages -d build"
+    "homepage": "https://phihungds.github.io/houseOfCars",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

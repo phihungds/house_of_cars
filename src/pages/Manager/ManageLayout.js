@@ -136,7 +136,7 @@ export default function Manager({ children }) {
           <List component="nav">
 
             <ListItemButton onClick={()=>{
-              navigate('/home')
+              navigate('/')
             }}>
               <ListItemIcon>
                 <HomeIcon sx={{ fontSize: 30 }} />

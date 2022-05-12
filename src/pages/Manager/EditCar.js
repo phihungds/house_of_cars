@@ -77,7 +77,7 @@ return(
                                         label="ID of Car"
                                         name="id"
                                         autoComplete="email"
-                                        placeholder={ecar.id}
+                                        value={ecar.id}
                                     />
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
@@ -88,7 +88,7 @@ return(
                                         required
                                         fullWidth
                                         label="Brand Name"
-                                        placeholder={ecar.brand}
+                                        value={ecar.brand}
                                     />
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
@@ -101,7 +101,7 @@ return(
                                         label="Car Name"
                                         name="name"
                                         autoComplete="family-name"
-                                        placeholder={ecar.name}
+                                        value={ecar.name}
                                     />
                                 </Grid>
                                 <Grid item xs={12}>
@@ -113,7 +113,7 @@ return(
                                         id="inventory"
                                         label="Amount"
                                         name="inventory"
-                                       placeholder={ecar.inventory}
+                                       value={ecar.inventory}
                                     />
                                 </Grid>
                                 <Grid item xs={12}>
@@ -126,7 +126,7 @@ return(
                                         id="debut"
                                         label="Debut"
                                         name="debut"
-                                       placeholder={ecar.date}
+                                       value={ecar.date}
                                     />
                                 </Grid>
                                 <Grid item xs={12}>
@@ -137,7 +137,7 @@ return(
                                         name="price"
                                         label="Price"
                                         type="number"
-                                        placeholder={ecar.price}
+                                        value={ecar.price}
                                         variant="standard"
                                     />
                                 </Grid>
