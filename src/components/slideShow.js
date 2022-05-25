@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { CardMedia } from "@mui/material";
 import "../styles/Slide.css";
-import Slider from 'react-slick'
+
 
 
 export default function Slideshow() {
@@ -45,7 +45,7 @@ export default function Slideshow() {
             src={require(`../photos/cars-photos/${imgId}-detail.jpg`)}
             sx={{height : 500}}
            />
-           <div><h1></h1></div>
+           <div><h1>Header h1</h1></div>
            </div>
         ))}
       </div>

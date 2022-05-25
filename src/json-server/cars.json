@@ -140,6 +140,10 @@
       "address": "Đồ Sơn, Hải Phòng",
       "phone": "0399562544",
       "id": 2
+    },
+    {
+      "car": "Mercedes AMG Vision",
+      "id": 3
     }
   ],
   "users": [

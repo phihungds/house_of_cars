@@ -40,7 +40,7 @@ export default function CarInfo() {
                 setOpen(false);
             })
             .catch((err) => { throw err })
-            .finally(() => { navigate('/home') })
+            .finally(() => { navigate('/') })
     }
     function handleChange(event) {
         setDeposit({
